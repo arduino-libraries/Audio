@@ -11,6 +11,7 @@
 
  Original by Massimo Banzi September 20, 2012
  Modified by Scott Fitzgerald October 19, 2012
+ Modified by Arturo Guadalupi December 18, 2015
 
  This example code is in the public domain
 
@@ -30,13 +31,12 @@ void setup() {
   Serial.print("Initializing SD card...");
   if (!SD.begin(4)) {
     Serial.println(" failed!");
-    return;
+    while(true);
   }
   Serial.println(" done.");
   // hi-speed SPI transfers
-  SPI.setClockDivider(4);
 
-  // 44100Khz stereo => 88200 sample rate
+  // 44100kHz stereo => 88200 sample rate
   // 100 mSec of prebuffering.
   Audio.begin(88200, 100);
 }
