@@ -38,7 +38,6 @@ void setup() {
 
   // 44100kHz stereo => 88200 sample rate
   // 100 mSec of prebuffering.
-  //Audio.begin(88200, 100);
 }
 
 void loop() {
@@ -80,4 +79,3 @@ void loop() {
   Serial.println("End of file. Thank you for listening!");
   while (true) ;
 }
-
