@@ -36,7 +36,7 @@ void setup() {
   Serial.println(" done.");
   // hi-speed SPI transfers
 
-  // 44100kHz stereo => 88200 sample rate
+  // 44100 Hz stereo => 88200 Hz sample rate
   // 100 mSec of prebuffering.
   Audio.begin(88200, 100);
 }
