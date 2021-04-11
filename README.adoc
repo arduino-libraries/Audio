@@ -1,9 +1,14 @@
-= Audio Library for Arduino =
+:repository-owner: arduino-libraries
+:repository-name: Audio
+
+= {repository-name} Library for Arduino =
+
+image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml/badge.svg["Spell Check status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml"]
 
 The Audio library enables an Arduino Due board to play back .wav files from a storage device like an SD card.
 
 For more information about this library please visit us at
-http://www.arduino.cc/en/Reference/Audio
+http://www.arduino.cc/en/Reference/{repository-name}
 
 == License ==
 
