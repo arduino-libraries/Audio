@@ -44,7 +44,7 @@ void setup() {
 void loop() {
   int count = 0;
 
-  // open wave file from sdcard
+  // open wave file from SD card
   File myFile = SD.open("test.wav");
   if (!myFile) {
     // if the file didn't open, print an error and stop
@@ -56,7 +56,7 @@ void loop() {
   short buffer[S];
 
   Serial.print("Playing");
-  // until the file is not finished
+  // until the file is finished
   while (myFile.available()) {
     // read from the file into buffer
     myFile.read(buffer, sizeof(buffer));
@@ -67,7 +67,7 @@ void loop() {
     // Feed samples to audio
     Audio.write(buffer, S);
 
-    // Every 100 block print a '.'
+    // Every 100 blocks print a '.'
     count++;
     if (count == 100) {
       Serial.print(".");
@@ -79,4 +79,3 @@ void loop() {
   Serial.println("End of file. Thank you for listening!");
   while (true) ;
 }
-
