@@ -38,7 +38,6 @@ void setup() {
 
   // 44100 Hz stereo => 88200 Hz sample rate
   // 100 mSec of prebuffering.
-  Audio.begin(88200, 100);
 }
 
 void loop() {
@@ -46,6 +45,7 @@ void loop() {
 
   // open wave file from SD card
   File myFile = SD.open("test.wav");
+  Audio.begin(88200, 100); 
   if (!myFile) {
     // if the file didn't open, print an error and stop
     Serial.println("error opening test.wav");
@@ -75,7 +75,7 @@ void loop() {
     }
   }
   myFile.close();
-
+  Audio.close();
   Serial.println("End of file. Thank you for listening!");
   while (true) ;
 }
