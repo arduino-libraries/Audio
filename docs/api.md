@@ -34,7 +34,7 @@ nothing
  Demonstrates the use of the Audio library for the Arduino Due
 
  Hardware required :
- *Arduino shield with a SD card on CS 4 (the Ethernet sheild will work)
+ *Arduino shield with a SD card on CS 4 (the Ethernet shield will work)
  *Audio amplifier circuit with speaker attached to DAC0
 
  Original by Massimo Banzi September 20, 2012
@@ -141,7 +141,7 @@ nothing
  Demonstrates the use of the Audio library for the Arduino Due
 
  Hardware required :
- *Arduino shield with a SD card on CS 4 (the Ethernet sheild will work)
+ *Arduino shield with a SD card on CS 4 (the Ethernet shield will work)
  *Audio amplifier circuit with speaker attached to DAC0
 
  Original by Massimo Banzi September 20, 2012
@@ -246,7 +246,7 @@ nothing
  Demonstrates the use of the Audio library for the Arduino Due
 
  Hardware required :
- *Arduino shield with a SD card on CS 4 (the Ethernet sheild will work)
+ *Arduino shield with a SD card on CS 4 (the Ethernet shield will work)
  *Audio amplifier circuit with speaker attached to DAC0
 
  Original by Massimo Banzi September 20, 2012
@@ -353,7 +353,7 @@ nothing
  Demonstrates the use of the Audio library for the Arduino Due
 
  Hardware required :
- *Arduino shield with a SD card on CS 4 (the Ethernet sheild will work)
+ *Arduino shield with a SD card on CS 4 (the Ethernet shield will work)
  *Audio amplifier circuit with speaker attached to DAC0
 
  Original by Massimo Banzi September 20, 2012
