@@ -16,7 +16,7 @@ Audio.begin(rate, size);
 
 #### Parameters
 
-rate (int) : the sample rate of the sound file. If stereo, double the rate (ex. 44100Khz stereo = 88200).
+rate (int) : the sample rate of the sound file. If stereo, double the rate (ex. 44100 Hz stereo = 88200).
 
 size (int) : the size of the audio buffer in milliseconds.
 
@@ -61,7 +61,7 @@ void setup()
   // hi-speed SPI transfers
   SPI.setClockDivider(4);
 
-  // 44100Khz stereo => 88200 sample rate
+  // 44100 Hz stereo => 88200 sample rate
   // 100 mSec of prebuffering.
   Audio.begin(88200, 100);
 }
@@ -168,7 +168,7 @@ void setup()
   // hi-speed SPI transfers
   SPI.setClockDivider(4);
 
-  // 44100Khz stereo => 88200 sample rate
+  // 44100 Hz stereo => 88200 sample rate
   // 100 mSec of prebuffering.
   Audio.begin(88200, 100);
 }
@@ -273,7 +273,7 @@ void setup()
   // hi-speed SPI transfers
   SPI.setClockDivider(4);
 
-  // 44100Khz stereo => 88200 sample rate
+  // 44100 Hz stereo => 88200 sample rate
   // 100 mSec of prebuffering.
   Audio.begin(88200, 100);
 }
