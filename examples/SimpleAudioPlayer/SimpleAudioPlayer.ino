@@ -75,7 +75,7 @@ void loop() {
     }
   }
   myFile.close();
-  Audio.close();
+  Audio.end();
   Serial.println("End of file. Thank you for listening!");
   while (true) ;
 }
